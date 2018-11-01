@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+}
+#container {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
+}
+
+#header {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 80px;
+    background-color: #fff;
+}
+#logo {
+    width: 40%;
+    float: left;
+    padding: 20px 0% 20px 5%;
+}
+#menu {
+    float: right;
+}
+#mobile-menu {
+    display: none;
+    float: right;
+    padding-top: 20px;
+    padding-right: 40px;
+    font-size: 21px;
+    color: #000;
+}
+#hero {
+    width: 100%;
+    max-width: 1400px;
+    height: 600px;
+    background-color: #0B0030;
+    background-image: url("../images/AG-challenge-hero-v2.png");
+    background-size: cover;
+    background-position: bottom center;
+    vertical-align: middle;
+    display: inline-block;
+}
+#banner {
+    width: 100%;
+    max-width: 2160px;
+    background-color: #0b0030;
+    background-image: url("../images/AG-challenge-banner-fullsize.png");
+    background-size: cover;
+    background-position: bottom center;
+    height: 100px;
+    padding: 0 0 0 0;
+    display: inline-block;
+}
+#main {
+    width: 80%;
+    max-width: 1080px;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 60px;
+    display: inline-block;
+}
+.blurb img {
+    max-wdith: auto;
+    max-height: 40px;
+    margin-bottom: 12px;
+}
+#cta {
+    background-color: #ff5300;
+    text-align: center;
+    padding: 60px 10% 60px 10%;
+}
+#cta h4 {
+    color: #fff;
+    font-size: 20px;
+}
+#cta input {
+    width: 100%;
+    height: 25px;
+    border: none;
+    margin-top: 20px;
+}
+#footer {
+    background-color: #222;
+    color: #fff;
+    width: 80%;
+    height: auto;
+    padding-top: 60px;
+    padding-left: 10%;
+    padding-bottom: 40px;
+    padding-right: 10%;
+    display: block;
+}
+
+/*--Sizing--*/
+
+.col-2 {
+    width: 46%;
+    height: auto;
+    float: left;
+    padding: 2%;
+}
+.col-4 {
+    width: 23%;
+    padding: 1%;
+    float: left;
+}
+
+/*--Laptop--*/
+@media screen and (max-width: 1280px) {
+#banner {
+    background-image: url("../images/AG-challenge-banner-1280.png")
+}
+#mobile-menu {
+    display: none;
+}
+}
+
+/*--Tablet--*/
+@media screen and (max-width: 960px) {
+.col-4 {
+    width: 46%;
+    float: left;
+    padding: 2%;
+}
+#banner {
+    background-image: url("../images/AG-challenge-banner-960.png")
+}
+#mobile-menu {
+    display: block;
+}
+#menu {
+    display: none;
+}
+}
+
+/*--Phone--*/
+@media screen and (max-width: 690px) {
+.col-2 {
+    width: 96%;
+    padding: 2%;
+}
+.col-4 {
+    width: 96%;
+    padding: 2%;
+}
+#hero {
+    background-image: url("../images/AG-challenge-mobile-v2.png");
+    min-width: 400px;
+}
+#banner {
+    background-image: url("../images/AG-challenge-banner-690.png")
+}
+#mobile-menu {
+    display: block;
+}
+#menu {
+    display: none;
+}
+}

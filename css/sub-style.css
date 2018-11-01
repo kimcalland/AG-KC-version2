@@ -1,0 +1,85 @@
+/* Sass Document */
+body {
+  font: 100% "Open Sans", sans-serif;
+  color: #333; }
+
+p {
+  font-size: 14px;
+  color: #333; }
+
+h1 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #333; }
+
+h2 {
+  font-size: 46px;
+  text-transform: uppercase;
+  color: #333; }
+
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
+  color: #333; }
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+  color: #333; }
+
+#menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+#menu li {
+  display: inline-block;
+  padding: 20px 0px 20px 0px; }
+#menu a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700; }
+
+.blurb {
+  text-align: center;
+  font-weight: 300;
+  color: #333;
+  padding-bottom: 30px; }
+
+.items ul {
+  margin: 0px;
+  text-align: left; }
+.items a {
+  color: #ff5300;
+  text-decoration: none;
+  font-weight: 700; }
+
+.btn-orange {
+  background-color: #ff5300;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 20px 10px 20px; }
+
+.btn-green {
+  width: 100%;
+  background-color: #74c706;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 0px;
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px; }
+
+#footer h4 {
+  color: #ddd;
+  text-transform: uppercase;
+  text-align: center; }
+#footer ul {
+  padding: 0px; }
+#footer li {
+  list-style: none; }
